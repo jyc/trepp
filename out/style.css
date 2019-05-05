@@ -1,0 +1,87 @@
+/* Page */
+
+body {
+  margin: 10px;
+  min-width: 1200px;
+
+  font-size: 14px;
+}
+
+/* Containers */
+
+#controls {
+}
+
+.row {
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#primary-row {
+  display: flex;
+
+  width: 100%;
+  height: 400px;
+}
+
+#auxiliary-row {
+  display: flex;
+
+  width: 100%;
+  height: 400px;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+
+  width: 33%;
+  border: 1px solid black;
+}
+
+/* Inputs */
+
+.listing {
+  display: flex;
+  box-sizing: border-box;
+
+  width: 100%;
+  flex-grow: 1;
+
+  font-family: monospace;
+}
+
+
+/* Input */
+
+#input {
+}
+
+/* Canvas */
+
+#canvas-actual {
+  width: 100%;
+  flex-grow: 1;
+}
+
+/* Console */
+
+#console {
+}
+
+#log {
+  width: 100%;
+  flex-grow: 1;
+
+  font-family: monospace;
+}
+
+#line {
+  width: 100%;
+}
+
+#line-text {
+  box-sizing: border-box;
+
+  width: 100%;
+}

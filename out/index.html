@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Trepp</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="bundle.js"></script>
+<script>
+  window.onload = App.onload;
+</script>
+</head>
+
+<body>
+
+<!-- Controls. -->
+<div id="controls" class="row">
+  <span id="title">Trepp Demo</span>
+  <button id="run">Run</button>
+  <button id="reset">Reset</button>
+</div>
+
+<!-- Primary row. -->
+<div id="primary-row" class="row">
+  <!-- Input -->
+  <div id="input" class="panel">
+    <div id="panel-title">Input</div>
+    <textarea id="input-text" class="listing"></textarea>
+  </div>
+  <!-- Program -->
+  <div id="program" class="panel">
+    <div id="panel-title">Program</div>
+    <textarea id="input-text" class="listing"></textarea>
+  </div>
+  <!-- Canvas -->
+  <div id="canvas" class="panel">
+    <div id="panel-title">Canvas</div>
+    <canvas id="canvas-actual" />
+  </div>
+</div>
+
+<!-- Auxiliary row. -->
+<div id="auxiliary-row" class="row">
+  <!-- Console -->
+  <div id="console" class="panel">
+    <div id="panel-title">Console</div>
+    <div id="log">
+    </div>
+    <div id="line">
+      <form id="line-form">
+        <input type="text" id="line-text" />
+      </form>
+    </div>
+  </div>
+  <!-- Output -->
+  <div id="output" class="panel">
+    <div id="panel-title">Output</div>
+    <textarea id="input-text" class="listing"></textarea>
+  </div>
+  <!-- Menu -->
+  <div id="menu" class="panel">
+    <div id="panel-title">Menu</div>
+  </div>
+</div>
+
+<!-- Footer. -->
+<div id="footer">
+  Hello!
+</div>
+</body>
+</html>
+
+<!-- vim: set et sw=2 sts=2 :-->

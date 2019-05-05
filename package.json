@@ -1,0 +1,17 @@
+{
+  "name": "trepp",
+  "version": "0.1.0",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world && mkdir -p out && px src/index.bs.js out/bundle.js",
+    "watch": "ls src/*.ml | entr npm run build"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^5.0.4"
+  }
+}
