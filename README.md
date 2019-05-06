@@ -1,3 +1,8 @@
+# Trepp
+
+Can we write programs such that we can perform static diffing to efficiently redraw canvases and
+rerender (HTML) interfaces?
+
 # Reading
 
 - [BuckleScript API](https://bucklescript.github.io/bucklescript/api/index.html)
