@@ -2,6 +2,7 @@
 
 - [BuckleScript API](https://bucklescript.github.io/bucklescript/api/index.html)
 - https://github.com/glennsl/bucklescript-cookbook
+- https://inc-lc.github.io/
 
 # Setup
 
