@@ -1,7 +1,7 @@
 # Reading
 
-    - [BuckleScript API](https://bucklescript.github.io/bucklescript/api/index.html)
-    - https://github.com/glennsl/bucklescript-cookbook
+- [BuckleScript API](https://bucklescript.github.io/bucklescript/api/index.html)
+- https://github.com/glennsl/bucklescript-cookbook
 
 # Setup
 
@@ -22,10 +22,6 @@ Switch to OCaml 4.02.3 (the version of OCaml BuckleScript is based on) so Merlin
 
     opam switch 4.02.3
     eval $(opam env)
-
-# Build
-
-    npm run build
 
 # Run
 
