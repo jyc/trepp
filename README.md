@@ -1,7 +1,7 @@
 # Trepp
 
-Can we write programs such that we can perform static diffing to efficiently redraw canvases and
-rerender (HTML) interfaces?
+Can we write programs in a way amenable to static diffing, allowing us to efficiently redraw
+canvases and rerender (HTML) interfaces upon user input?
 
 # Reading
 
