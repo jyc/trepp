@@ -3,6 +3,10 @@
 Can we write programs in a way amenable to static diffing, allowing us to efficiently redraw
 canvases and rerender (HTML) interfaces upon user input?
 
+# Status
+
+Absolutely nothing done!
+
 # Reading
 
 - [BuckleScript API](https://bucklescript.github.io/bucklescript/api/index.html)
